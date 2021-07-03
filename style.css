@@ -9,35 +9,34 @@ box-sizing:border-box;
 
 /* a{
   text-decoration: none;
-}
+} */
 
 header,nav,h2,.main-visual,footer{
   font-family: Chalkduster,"Bradley Hand",'Courier New',"Segoe Print",sans-serif;
-}
+} 
 
-/* div class="header"用のcss */
+/* div class="header"用のcss 削除
 .header{
   width: 100%;
   height: 120px;
   background-color: red;
 }
-
 .header-top{
   width: 100%;
   height: 70px;
   background-color: hotpink;
 }
-
 .header-bottom{
   width: 100%;
   height: 50px;
   background-color: pink;
-}
+} */
 
 .main-visual{
   width:100%;
   height:300px;
-  background-color: orange;
+ /* background-color削除
+    background-color: orange; */
   /* background-image: url(img/mv.jpg);
   background-size: cover;
   background-position: center; */
@@ -46,7 +45,8 @@ header,nav,h2,.main-visual,footer{
 .main-visual-content{
   width:350px;
   height:300px;
-  background-color:gold;
+/*background-color削除
+  background-color:gold; */
   /* text-align: center;
   padding-top: 105px; */
 }
@@ -65,7 +65,8 @@ header,nav,h2,.main-visual,footer{
 .main{
   width: 840px;
   /* height: 1400px; */
-  /* background-color: green; */
+  /*background-color削除
+    background-color: green; */
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -82,7 +83,8 @@ header,nav,h2,.main-visual,footer{
 .blog{
   width: 600px;
   height: 1400px;
-  background-color: limegreen;
+/*background-color削除
+  background-color: limegreen; */
 }
 
 /* .blog-heading{
@@ -150,7 +152,8 @@ header,nav,h2,.main-visual,footer{
 .sidebar{
   width: 240px;
   height: 1400px;
-  background-color: palegreen;
+/*background-color削除
+  background-color: palegreen; */
 }
 
 /* .common-heading{
@@ -249,7 +252,8 @@ header.heading{
 .footer{
   width: 100%;
   height: 120px;
-  background-color: blue;
+/*background-color削除
+  background-color: blue; */
 }
 
 /* 
