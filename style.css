@@ -2,8 +2,8 @@
   /* リセットCSS */
   margin:0;
   padding:0;
-box-sizing:border-box;
-/* color: #6c6b6b; */
+  box-sizing:border-box;
+  /* color: #6c6b6b; */
 }
 
 
@@ -11,9 +11,9 @@ box-sizing:border-box;
   text-decoration: none;
 } */
 
-header,nav,h2,.main-visual,footer{
+/* header,nav,h2,.main-visual,footer{
   font-family: Chalkduster,"Bradley Hand",'Courier New',"Segoe Print",sans-serif;
-} 
+}  */
 
 /* div class="header"用のcss 削除
 .header{
@@ -31,6 +31,13 @@ header,nav,h2,.main-visual,footer{
   height: 50px;
   background-color: pink;
 } */
+header{
+  width:90%;
+  padding: 15px 0;
+  margin: 0 auto;
+  /* text-align: center;
+  position: relative; */
+}
 
 .main-visual{
   width:100%;
@@ -72,13 +79,13 @@ header,nav,h2,.main-visual,footer{
   margin: 0 auto;
 }
 
-/* /* main{
+/* main{
   width: 800px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
   padding: 70px 0;
-/* } */
+ } */
 
 .blog{
   width: 600px;
@@ -92,7 +99,6 @@ header,nav,h2,.main-visual,footer{
   text-align: center;
   line-height:0.6;
 }
-
 
 .blog-item{
   padding-bottom: 20px;
@@ -156,47 +162,47 @@ header,nav,h2,.main-visual,footer{
   background-color: palegreen; */
 }
 
-/* .common-heading{
+/* common-heading{
   border-bottom: 8px solid #f7f7f7;
   text-align: center;
   line-height: 0.6;
-}
+} */
 
-.sidebar-contents{
+/* .sidebar-contents{
   padding: 50px 0;
-}
+} */
 
-.popular-text,.categories-text{
+/* .popular-text,.categories-text{
   padding-bottom: 5px;
   border-bottom: 1px solid #f7f7f7;
   margin-bottom: 5px;
-}
+} */
 
-.popular-text:last-child,
+/* .popular-text:last-child,
 .categories-text:last-child{
   margin: 0;
   padding: 0;
   border: none;
-}
+} */
 
-.instagram .sidebar-contents{
+/* .instagram .sidebar-contents{
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
-.instagram-box{
+/* .instagram-box{
   width: 110px;
   padding-top: 110px;
   background-size: cover;
   background-position: center;
   margin-bottom: 10px;
-}
+} */
 
-.instagram-box:nth-child(odd){
+/* .instagram-box:nth-child(odd){
   margin-right: 10px;
-}
+} */
 
-.instagram-box:nth-child(1){
+/* .instagram-box:nth-child(1){
   background-image: url(img/airport.jpg);
 }
 .instagram-box:nth-child(1){
@@ -211,15 +217,8 @@ header,nav,h2,.main-visual,footer{
   background-image: url(img/lake.jpg);
 }.instagram-box:nth-child(6){
   background-image: url(img/road.jpg);
-} */ */
+} */ 
 
-/* header{
-  width:90%;
-  padding: 15px 0;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-}
 
 .social{
   position: absolute;
@@ -248,23 +247,21 @@ header.heading{
   margin: 0 20px;
 } */
 
-/* div class="footer"用のcss */
+/* div class="footer"用のcss 削除
 .footer{
   width: 100%;
   height: 120px;
 /*background-color削除
-  background-color: blue; */
-}
-
-/* 
+  background-color: blue;
+}*/
 footer{
   width: 100%;
   height: 120px;
-  text-align: center;
+  /* text-align: center;
   line-height: 120px;
-  background-color: #848282;
+  background-color: #848282; */
 }
 
 .footer-text{
   color: #fff;
-} */ 
+} 
